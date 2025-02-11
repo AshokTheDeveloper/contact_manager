@@ -27,7 +27,7 @@ npm install express nodemon mongoose dotenv body-parser express-validator jest s
 
 ### Clone the Repository
 ```sh
-git clone https://github.com/yourusername/contact-api.git
+git clone https://github.com/yourusername/contact_manager.git
 cd contact-api
 ```
 ###  Install Dependencies
