@@ -1,0 +1,37 @@
+GET http://localhost:3003/contacts
+
+###
+GET http://localhost:3003/contacts/67aa44a684c25f827c09e4d7
+
+###
+POST http://localhost:3003/contacts
+Content-Type: application/json
+
+{
+  "name": "xyz",
+  "email": "xyz@example.com",
+  "phone": "4400778899",
+  "address": "123 Street, UK"
+}
+
+###
+{
+  "name": "Ashok",
+  "email": "ashok@example.com",
+  "phone": "9988776655",
+  "address": "123 Street, India"
+}
+
+###
+PUT http://localhost:3003/contacts/67aaf24b4ca37f90144072d2
+Content-Type: application/json
+
+{
+  "name": "xyz",
+  "email": "xyz@example.com",
+  "phone": "4400778899",
+  "address": "123 Street, UK"
+}
+
+###
+DELETE http://localhost:3003/contacts/67aaf24b4ca37f90144072d2
