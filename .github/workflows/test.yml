@@ -23,8 +23,8 @@ jobs:
 
       - name: Install dependencies
         run: npm install
-        working-directory: .  # <-- Ensures it runs in the root folder
+        working-directory: .
 
       - name: Run tests
         run: npm test
-        working-directory: .  # <-- Ensures Jest runs in the correct folder
+        working-directory: .
